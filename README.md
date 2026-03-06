@@ -25,13 +25,7 @@ This project demonstrates a complete observability and security stack for a cont
 	- Web App: `http://localhost:3000` (or EC2 public IP)
 	- Prometheus: `http://localhost:9090`
 	- Grafana: `http://localhost:3001` (admin/admin1)
-	- Metrics: `http://localhost:3000/metrics`
-
-## Documentation
-
-- [Runbook & Setup Guide](./docs/runbook.md)
-- [Implementation Report](./docs/REPORT.md)
-- [Screenshots](./docs/screenshots/)
+	- Metrics: `http://localhost:3000/metrics
 
 
 ## Key Implementations
