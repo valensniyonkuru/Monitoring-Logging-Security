@@ -24,10 +24,8 @@ This project demonstrates a complete observability and security stack for a cont
 4. Access services:
 	- Web App: `http://localhost:3000` (or EC2 public IP)
 	- Prometheus: `http://localhost:9090`
-	- Grafana: `http://localhost:3001` (admin/admin)
+	- Grafana: `http://localhost:3001` (admin/admin1)
 	- Metrics: `http://localhost:3000/metrics`
-
-For full setup, CI/CD, and AWS integration, see [docs/runbook.md](./docs/runbook.md).
 
 ## Documentation
 
@@ -46,13 +44,6 @@ For full setup, CI/CD, and AWS integration, see [docs/runbook.md](./docs/runbook
 - **Security**: AWS CloudTrail (activity auditing) and AWS GuardDuty (threat detection) enabled.
 - **Compliance**: CloudTrail logs stored in encrypted S3 buckets with lifecycle policies.
 
-## Repository Structure
-
-- **[app/](./app/)**: Node.js source code, tests, and Dockerfile.
-- **[infra/](./infra/)**: Infrastructure as Code (Terraform) and Configuration (Ansible).
-- **[monitoring/](./monitoring/)**: Prometheus and Grafana configurations + local `docker-compose.yml`.
-- **[docs/](./docs/)**: Comprehensive report and screenshots.
-- **[Jenkinsfile](./Jenkinsfile)**: Root pipeline definition.
 
 ## Components
 
