@@ -1,4 +1,4 @@
-# Project 6 – Full Observability & Security Solution
+# Full Observability & Security Solution
 
 ## Overview
 
