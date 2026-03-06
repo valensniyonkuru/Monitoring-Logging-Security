@@ -57,22 +57,10 @@ For full setup, CI/CD, and AWS integration, see [docs/runbook.md](./docs/runbook
 ## Components
 
 - **Prometheus**: Port 9090
-- **Grafana**: Port 3001 (Admin: `admin`/`admin`)
+- **Grafana**: Port 3001 (Admin: `admin`/`admin1`)
 - **Node Exporter**: Port 9100
 - **Web App**: Port 3000
+- 
 
-## Deliverables Checklist
+<img width="1918" height="942" alt="image" src="https://github.com/user-attachments/assets/44bc9698-78df-4062-ab30-68a9d428dfd1" />
 
-- [x] `prometheus.yml`
-- [x] Grafana dashboard JSON
-- [x] Functional alerts (>5% error rate)
-- [x] CloudWatch Logs streaming
-- [x] CloudTrail & GuardDuty enabled
-- [x] encrypted S3 for logs
-- [x] 2-page Implementation Report
-
-- [x] Screenshots of all components
-
----
-
-For detailed instructions, troubleshooting, and advanced deployment, see [docs/runbook.md](./docs/runbook.md).
